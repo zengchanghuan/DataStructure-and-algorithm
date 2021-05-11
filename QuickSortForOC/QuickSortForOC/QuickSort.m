@@ -8,6 +8,7 @@
 #import "QuickSort.h"
 
 @implementation QuickSort
+
 - (NSArray *)quickSortArray:(NSArray *)unsortedArray
 {
     int count = (int)[unsortedArray count];
@@ -41,7 +42,9 @@
     NSMutableArray *returnArray = [NSMutableArray array];
     [returnArray addObjectsFromArray:[self quickSortArray:smallerThanArray]];
     [returnArray addObjectsFromArray:pivotArray];
-    [returnArray addObject:[self quickSortArray:largerThanArray]];
+    [returnArray addObjectsFromArray:[self quickSortArray:largerThanArray]];
+    
     return returnArray;
 }
+
 @end

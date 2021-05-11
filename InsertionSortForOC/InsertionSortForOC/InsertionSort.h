@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface InsertionSort : NSObject
 - (NSArray *) mutableArrayInsertionSort: (NSArray *)unsortedArray;
+- (void) constantArrayInsertionSort;
 @end
 
 NS_ASSUME_NONNULL_END

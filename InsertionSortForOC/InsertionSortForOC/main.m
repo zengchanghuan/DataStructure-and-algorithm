@@ -17,6 +17,8 @@ int main(int argc, const char * argv[]) {
         InsertionSort *insertionSort = [[InsertionSort alloc] init];
         NSArray *insertionSortArray = [insertionSort mutableArrayInsertionSort:sorttData];
         NSLog(@"insertionSortArray: %@", insertionSortArray);
+        
+        [insertionSort constantArrayInsertionSort];
     }
     return 0;
 }

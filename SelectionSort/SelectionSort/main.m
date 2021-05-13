@@ -10,7 +10,7 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSArray *arrry = @[@2, @45, @8, @1, @27, @16, @5.3, @ - 53.7];
+        NSArray *arrry = @[@2, @45, @8, @1, @27, @16, @5.3, @-53.7];
         SelectionSort *selectionSort = [[SelectionSort alloc] init];
         NSArray *resultArray = [selectionSort selectionSort:arrry];
         NSLog(@"resultArray %@",resultArray);

@@ -8,6 +8,7 @@
 #import <Foundation/Foundation.h>
 #import "HeapSort.h"
 
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
@@ -16,6 +17,12 @@ int main(int argc, const char * argv[]) {
 
         NSMutableArray *resultArray =  [hs maxHeapSort:[array mutableCopy]];
         NSLog(@"resultArray = %@",resultArray);
+        
+        NSMutableArray *resultArray2 = [hs minHeapSort:[array mutableCopy]];
+        NSLog(@"resultArray2 = %@",resultArray2);
+
+        
     }
     return 0;
 }
+

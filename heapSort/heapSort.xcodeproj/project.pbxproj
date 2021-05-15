@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E36B6D3264A9238006156F4 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8E36B6D2264A9238006156F4 /* main.mm */; };
+		8E36B6D3264A9238006156F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E36B6D2264A9238006156F4 /* main.m */; };
 		8E36B6DB264A924B006156F4 /* HeapSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E36B6DA264A924B006156F4 /* HeapSort.m */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +25,7 @@
 
 /* Begin PBXFileReference section */
 		8E36B6CF264A9238006156F4 /* heapSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = heapSort; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E36B6D2264A9238006156F4 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		8E36B6D2264A9238006156F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8E36B6D9264A924B006156F4 /* HeapSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeapSort.h; sourceTree = "<group>"; };
 		8E36B6DA264A924B006156F4 /* HeapSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeapSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,7 +60,7 @@
 		8E36B6D1264A9238006156F4 /* heapSort */ = {
 			isa = PBXGroup;
 			children = (
-				8E36B6D2264A9238006156F4 /* main.mm */,
+				8E36B6D2264A9238006156F4 /* main.m */,
 				8E36B6D9264A924B006156F4 /* HeapSort.h */,
 				8E36B6DA264A924B006156F4 /* HeapSort.m */,
 			);
@@ -123,7 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E36B6D3264A9238006156F4 /* main.mm in Sources */,
+				8E36B6D3264A9238006156F4 /* main.m in Sources */,
 				8E36B6DB264A924B006156F4 /* HeapSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

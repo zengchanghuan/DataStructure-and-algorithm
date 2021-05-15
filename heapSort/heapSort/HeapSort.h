@@ -25,7 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSMutableArray *)maxHeapSort:(NSMutableArray *)array;
 
 //降序----使用小顶堆
-//- (NSMutableArray *)minHeapSort:(NSMutableArray *)array;
+- (NSMutableArray *)minHeapSort:(NSMutableArray *)array;
 
 @end
 

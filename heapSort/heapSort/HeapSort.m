@@ -59,8 +59,10 @@
 
 
 #pragma mark - 小顶堆
-//- (NSMutableArray *)minHeapSort:(NSMutableArray *)array
-//{
-//    
-//}
+- (NSMutableArray *)minHeapSort:(NSMutableArray *)array
+{
+    NSMutableArray *themutablearray = [self maxHeapSort:array];
+    return [[[themutablearray reverseObjectEnumerator] allObjects] mutableCopy];
+    
+}
 @end
